@@ -43,3 +43,10 @@ During the "Diligence" phase of this project, several key behaviors were identif
     grep -Ei 'rss|xml|feed'
     echo "--- Scan Complete ---"
 
+## 5. Final Project Reflection
+
+**Architectural Discernment:** The decision to use a "Piecemeal" approach (Diagnostic Python -> Discovery Bash) was made to ensure the end-user has a "Fail-Fast" experience if their environment is missing dependencies.
+
+**Iteration & Vetting:** Live vetting revealed that modern "Web App" sites (The Verge/IOL) produce significant metadata "noise." The script was iterated from a broad search to a strict keyword filter (rss|xml|feed) to ensure professional-grade accuracy.
+
+**Collaborative Logic:** The technical "Search Signatures" were delegated to Gemini (AI), while the "Human Intent," "Accessibility requirements," and "Environment vetting" were managed by the human lead.
